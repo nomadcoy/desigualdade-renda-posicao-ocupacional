@@ -1,53 +1,52 @@
-# Análise da Desigualdade de Renda no Brasil
+# Análise de Desigualdade Social a partir da Renda
 
-Este projeto realiza uma análise de dados descritiva sobre a desigualdade de renda no Brasil, utilizando dados públicos do IBGE (SIDRA). A abordagem combina técnicas de análise de dados com uma leitura sociológica das relações econômicas, considerando renda como expressão das posições ocupadas no processo produtivo e distributivo.
+Este repositório apresenta um projeto inicial de análise de dados com base em informações públicas do IBGE, obtidas por meio do sistema SIDRA. O objetivo é realizar uma análise descritiva da distribuição da renda no Brasil, tomando a renda como expressão das relações sociais de produção e distribuição, conforme a tradição da sociologia marxista.
 
-## Objetivo
+O projeto busca articular técnicas básicas de análise de dados com uma leitura sociológica da desigualdade social, considerando a renda não apenas como variável econômica, mas como resultado de posições distintas no processo produtivo e no acesso aos bens socialmente produzidos.
 
-Analisar a distribuição da renda domiciliar per capita no Brasil, identificando padrões de desigualdade e diferenças entre grupos sociais, a partir de estatísticas descritivas simples.
+---
 
-O projeto tem como foco:
-- Explorar a desigualdade de renda como fenômeno estrutural
-- Demonstrar habilidades técnicas em análise de dados
-- Aplicar conceitos sociológicos à leitura dos dados
+## Fonte dos dados
 
-## Base de Dados
+Os dados utilizados foram extraídos do **IBGE – SIDRA**, a partir da PNAD Contínua, tabela de rendimento domiciliar per capita.  
+Os arquivos encontram-se no diretório `dados/`, em formato CSV.
 
-- Fonte: **IBGE – SIDRA**
-- Tabela: **Rendimento domiciliar per capita**
-- Formato: CSV
-- Período: dados recentes disponíveis no SIDRA
+---
 
-Os dados são públicos e podem ser acessados diretamente no sistema SIDRA do IBGE.
+## Estrutura do repositório
 
-## Metodologia
+- `dados/`  
+  Contém os arquivos de dados brutos utilizados na análise.
 
-A análise segue os seguintes passos:
+- `notebooks/`  
+  Contém os notebooks Jupyter com as etapas de leitura, limpeza e análise exploratória dos dados.
 
-1. Importação e leitura dos dados
-2. Limpeza e organização das variáveis
-3. Análise estatística descritiva:
-   - Média
-   - Mediana
-   - Quartis
-   - Distribuição dos rendimentos
-4. Interpretação sociológica dos resultados, considerando:
-   - Desigualdade econômica
-   - Estrutura social
-   - Relações de produção e distribuição
+---
 
-## Ferramentas Utilizadas
+## Metodologia (proposta)
+
+A análise se baseia em estatística descritiva simples, incluindo:
+- distribuição da renda per capita;
+- medidas de tendência central e dispersão;
+- análise da concentração de renda;
+- visualizações gráficas.
+
+A interpretação dos resultados dialoga com a noção de desigualdade social enquanto relação social, enfatizando os mecanismos estruturais de produção e reprodução da desigualdade.
+
+---
+
+## Tecnologias utilizadas
 
 - Python
 - Pandas
-- Matplotlib / Seaborn
 - Jupyter Notebook
+- Dados públicos do IBGE (SIDRA)
 
-## Resultados Esperados
+---
 
-- Identificação de padrões de concentração de renda
-- Visualização da desigualdade por meio de gráficos
-- Leitura crítica dos dados a partir de uma perspectiva sociológica
+## Status do projeto
+
+Projeto em desenvolvimento, com foco em aprendizado, organização de portfólio e aplicação em processos seletivos na área de análise de dados e políticas públicas.
 
 ## Organização do Repositório
 
