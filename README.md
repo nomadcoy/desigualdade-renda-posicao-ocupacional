@@ -51,3 +51,9 @@ A análise segue os seguintes passos:
 
 ## Organização do Repositório
 
+├── dados/
+│ └── renda_domiciliar_per_capita.csv
+├── notebooks/
+│ └── analise_desigualdade_renda.ipynb
+└── README.md
+
